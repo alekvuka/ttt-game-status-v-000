@@ -25,13 +25,13 @@ end
 
 def full?(board)
   board.each do |i|
-    if i =! "X" || i =! "O"
+    if i == "" || i == " "
       return false
     else
       true
     end
   end
-end 
+end
 
 
 

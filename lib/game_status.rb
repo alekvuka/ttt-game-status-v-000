@@ -55,7 +55,7 @@ def over?(board)
 end
 
 def winner(board)
-  winning_array = Array.new(3)
+  #winning_array = Array.new(3)
   winning_array = won?(board)
 
   if board[winning_array[0]] == "X"
@@ -65,7 +65,7 @@ def winner(board)
   else
     return nil
   end
-  
+
 end
 
 

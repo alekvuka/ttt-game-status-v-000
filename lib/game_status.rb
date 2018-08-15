@@ -23,7 +23,9 @@ WIN_COMBINATIONS.each do |win_combo|
    end
 
  end
-false 
+
+return false
+
 end
 
 

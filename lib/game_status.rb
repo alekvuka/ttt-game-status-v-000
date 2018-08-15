@@ -21,8 +21,8 @@ WIN_COMBINATIONS.each do |win_combo|
    else
      false
    end
-   false
  end
+ return false
 end
 
 

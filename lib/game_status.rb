@@ -15,9 +15,9 @@ WIN_COMBINATIONS.each do |win_combo|
    position_3 = board[win_index_3]
 
    if position_1 == "X" && position_2 == "X" && position_3 == "X"
-      win_combo
+      return win_combo
    elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-     win_combo
+      return win_combo
    else
      false
    end

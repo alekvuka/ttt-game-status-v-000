@@ -20,7 +20,7 @@ WIN_COMBINATIONS.each do |win_combo|
       return win_combo
    end
  end
-  false
+  return false
 end
 
 def full?(board)
@@ -48,7 +48,7 @@ def over?(board)
   elsif won?(board) == true
     return true
   else
-    return false 
+    return false
   end
 end
 

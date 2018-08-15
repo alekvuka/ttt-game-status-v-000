@@ -60,10 +60,13 @@ def winner(board)
 
   if board[winning_array[0]] == "X"
     return "X"
-  else
+  elsif board[winning_array[0]] == "O"
     return "O"
+  else
+    return nil
   end
-end 
+  
+end
 
 
 

@@ -32,10 +32,6 @@ end
 #  return true
 #end
 
-def full?(board)
-    board.detect{|i| i.full?} 
- end
-
 
 
 

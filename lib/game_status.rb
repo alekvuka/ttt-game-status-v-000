@@ -23,16 +23,21 @@ WIN_COMBINATIONS.each do |win_combo|
   false
 end
 
+#def full?(board)
+#  board.each do |i|
+#    if i == "" || i == " "
+#      return false
+#    end
+#  end
+#  return true
+#end
+
 def full?(board)
-  board.each do |i|
-    if i == "" || i == " "
-      return false
-    end
+  if board.detect{|i| i.empty?} == true
+    return false
   end
-  return true
+  rerurn true
 end
-
-
 
 
 

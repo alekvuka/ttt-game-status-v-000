@@ -18,11 +18,9 @@ WIN_COMBINATIONS.each do |win_combo|
       return win_combo
    elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_combo
-   else
-      false
    end
  end
-  return false
+  false
 end
 
 

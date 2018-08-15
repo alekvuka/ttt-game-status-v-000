@@ -36,7 +36,7 @@ def full?(board)
   if board.detect{|i| i.empty?} == true
     return false
   end
-  rerurn true
+  return true
 end
 
 

@@ -57,10 +57,11 @@ end
 def winner(board)
   #winning_array = Array.new(3)
   winning_array = won?(board)
+  index = winning_array[0]
 
   #if board[winning_array[0]] == "X"
   #  return "X"
-  if board[winning_array[0]] == "O"
+  if board[index] == "O"
     return "O"
 #  else
 #    return nil

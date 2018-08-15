@@ -33,10 +33,12 @@ end
 #end
 
 def full?(board)
-  if board.detect{|i| i==" "} == true 
-    return false
+  board_state = board.detect{|i| i==" "}
+  if board_state = true
+    retunrn false
+  else
+    return true 
   end
-  return true
 end
 
 
